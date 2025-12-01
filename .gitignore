@@ -1,0 +1,26 @@
+# Playwright downloaded browsers (HUGE – never commit)
+.ms-playwright/
+playwright/.cache/
+
+# Node modules
+node_modules/
+
+# Playwright reports & videos
+test-results/
+playwright-report/
+*.mp4
+*.webm
+*.zip
+
+# Logs & temp
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Environment files (if you add passwords later)
+.env
+.env.local
+
+# VS Code settings (optional, most people ignore)
+.vscode/
